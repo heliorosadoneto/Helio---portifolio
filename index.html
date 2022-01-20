@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Dev</title>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/dracula.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/menu__editor.css">
+    <link rel="stylesheet" href="css/menu__comunidade.css">
+    <link rel="stylesheet" href="css/code_conteudo.css">
+    <link rel="stylesheet" href="css/conteudo_direita.css">
+
+</head>
+<body class="body_container">
+    <div class="load">
+        <iframe class="load_animacao" src="https://embed.lottiefiles.com/animation/89748"></iframe>
+    </div>
+    <header class="header">
+        <div class="header_conteudo">
+            <h2 class="header_logo"></h2>
+            <input class="header_search" type="search" placeholder="Busque por algo....">
+            <div class="header_perfil">
+                <h4 class="perfil__imagem"></h4>
+                <p class="perfil__nome">Hélio Rosado Neto</p>
+            </div>
+        </div>
+    </header>
+    <section class="conteudo">
+        <div class="conteudo_menu">
+            <h3 class="menu__titulo">Menu</h3>
+
+            <div class="editor">
+                <a href="index.html">
+                    <div class="menu__editor">
+                        <div class="menu__editor_icone " style="background: rgba(255, 255, 255, 0.24);" >
+                            <img class="editor__imagem" src="Image/icone__editor.png">
+                        </div>
+                        <h3 class="menu__subtitulo show1">Editor de codigo</h3>
+                    </div>
+                </a>
+            </div>
+
+            <div class="comunidade">
+                <a href="comunidade.html">
+                    <div class="menu__comunidade">
+                        <div class="menu__comunidade_icone" >
+                            <img class="comunidade__imagem" src="Image/icone__comunidade.png">
+                        </div>
+                        <h3 class="menu__subtitulo menu__subtitulo_comunidade show2">Comunidade</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="conteudo_code">
+            <div class="code__borda">
+                <div class="code__area">
+                    <div class="bolinha__area">
+                        <div class="bolinha">
+                            <div class="bolas"></div>
+                            <div class="bolas"></div>
+                            <div class="bolas"></div>
+                        </div>
+                    </div>
+                    <div class="codigo-wrapper">
+                        <code class="hljs code__area_textarea" spellcheck="false" contenteditable="true"></code>
+                    </div>
+                </div>
+            </div>
+            <button class="code__botao botao">Visualizar com o highlight</button>
+        </div>
+        <div class="conteudo_direita" >
+            <div class="conteudo__projetos">
+                <h5 class="projeto__titulo">SEU PROJETO</h5>
+                <div class="projeto__area">
+                    <input class="projeto__nome" type="text" placeholder="Nome do seu projeto">
+                    <textarea class="projeto__descricao" placeholder="Descrição do seu projeto"></textarea>
+                </div>
+            </div>
+
+            <div class="conteudo__personalizacao">
+                <h5 class="personalizacao__titulo">PERSONALIZAÇÃO</h5>
+                <div class="personalizacao__area">
+                    <select name="linguagem" id="linguagem"  class="personalizacao__select linguagem">
+                        <option class="personalizacao__option" value="JavaScript">JavaScript</option>
+                        <option class="personalizacao__option" value="HTML5">HTML5</option>
+                        <option class="personalizacao__option" value="CSS3">CSS3</option>
+                    </select>
+                    <div class="personalizacao__borda__text">
+                        <input class="personalizacao__bordas" type="color" id="color" value="#6BD1FF">
+                    </div>
+                    <button class="personalizacao__botao salvar">Salvar projeto</button>
+                </div>
+            </div>
+        </div>
+
+
+        <main class="pre" style="display: none">
+            <h1 class="todos_os_projetos">todos os projetos</h1>
+            <div class="todos-projetos">
+
+            </div>
+        </main>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <script src="script.js"></script>
+    <script src="color.js"></script>
+    <script src="comunidades.js"></script>
+</body>
+</html>

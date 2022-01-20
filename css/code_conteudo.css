@@ -1,0 +1,97 @@
+@import url('style.css');
+
+.conteudo_code{
+    width: 100%;
+}
+.code__borda{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    background: var(--fundo_azul__bb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.code__area{
+    width: 90%;
+    height: 80%;
+    border-radius: 9px;
+    background-color: black;
+    resize: none;
+    color: var(--logo_branco);
+    cursor: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.code__area_textarea{
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 219px;
+    border: none;
+    resize: none;
+    outline:0;
+    background: black;
+    font-size: 16px;
+    font-weight: normal;
+    overflow-y: hidden;
+    white-space: pre-wrap;
+    color: white;
+
+}
+.bolinha__area{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.bolinha{
+    width: 100px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.bolas{
+    margin-left: 8px;
+}
+.bolas:nth-child(1){
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #FF5F56;
+}
+.bolas:nth-child(2){
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #FFBD2E;
+}
+.bolas:nth-child(3){
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #27C93F;
+}
+
+.code__botao{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    outline: 0;
+    border: none;
+    font-weight: normal;
+    background: var(--fundo_iconeEditor);
+    margin-top: 20px;
+    font-size: 16px;
+
+    transition: .4s all linear;
+}
+
+.code__botao:hover{
+    background-color: rgb(var(--sombra_botao__azul));
+}

@@ -1,0 +1,59 @@
+.conteudo_comunidade{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.projeto{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+
+.todos-projetos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.language-plaintext{
+    color: white;
+}
+
+.codigo__wrapper_comunidade{
+    width: 100%;
+    height: 55%;
+    background: black;
+    padding: 10px;
+}
+
+.codigo_areaComunidade{
+    background: none;
+}
+
+
+
+.descricaoCode_comunidade{
+    width: 100%;
+    height: 90px;
+    background: rgba(43, 40, 40, 0.589);
+}
+
+.projeto_titulo,
+.projeto_descricao{
+    margin: 10px;
+}
+
+.linguagem_usada{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.projeto_linguagem{
+    margin-top: 9px;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 10px;
+}

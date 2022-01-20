@@ -1,0 +1,17 @@
+.conteudo{
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+

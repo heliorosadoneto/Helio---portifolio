@@ -1,0 +1,126 @@
+@import url('/css/style.css');
+.conteudo_direita{
+    width: 100%;
+}
+
+.projeto__area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.projeto__titulo{
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 33px;
+}
+.projeto__nome{
+    margin-top: 15px;
+    width: 80%;
+    height: 50px;
+    border-radius: 6px;
+    outline: 0;
+    border: none;
+    background: var(--fundo_Inputs__direita);
+
+    transition: 0.4s all linear;
+}
+.projeto__nome::placeholder{
+    color: var(--logo_branco);
+    font-size: 13px;
+    padding-left: 15px;
+}
+.projeto__nome:hover{
+    background-color: var(--sombra_Inputs);
+}
+.projeto__descricao{
+    border-radius: 6px;
+    border: none;
+    margin-top: 15px;
+    outline: 0;
+    resize: none;
+    background: var(--fundo_Inputs__direita);
+    width: 80%;
+    height: 80px;
+
+    transition: 0.4s all linear;
+}
+.projeto__descricao::placeholder{
+    color: #FFFFFF;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.projeto__descricao:hover{
+    background-color: var(--sombra_Inputs);
+}
+.personalizacao__area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+.personalizacao__titulo{
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 33px;
+    margin-top: 15px;
+}
+.personalizacao__select{
+    border: none;
+    width: 80%;
+    height: 50px;
+    border-radius: 6px;
+    background: var(--fundo_Inputs__direita);
+
+    transition: 0.4s all linear;
+}
+.personalizacao__select:hover{
+    background-color: var(--sombra_Inputs);
+    
+}
+.personalizacao__option{
+    color: black;
+    background: rgb(178, 178, 228);
+}
+
+.personalizacao__borda__text{
+    width: 80%;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.personalizacao__bordas{
+    border-radius: 5px;
+    outline: 0;
+    width: 95%;
+    height: 90%;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+.personalizacao__botao{
+    margin-top: 15px;
+    width: 80%;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background: #5081FB;
+    font-weight: normal;
+    font-size: 16px;
+    color: black;
+
+    transition: 0.4s all linear;
+}
+.personalizacao__botao:hover{
+    background-color: rgb(var(--sombra_botao__azul));
+    
+}

@@ -1,0 +1,33 @@
+
+.conteudo_menu{
+    width: 100%;
+}
+
+.menu__titulo{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px;
+}
+.menu__editor{
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.menu__subtitulo{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.menu__editor_icone{
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    background: var(--fundo_iconeEditor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
