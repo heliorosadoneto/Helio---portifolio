@@ -5,7 +5,7 @@ const load = document.querySelector('.load')
 
 const mytempo = setTimeout(()=>{
     load.setAttribute('style', 'display: none;')
-},0)
+},2100)
 
 
 
